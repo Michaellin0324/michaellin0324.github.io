@@ -4,16 +4,16 @@ body {
     font-size: 14px;
     line-height: 32px;
     font-family: Arial, Helvetica, sans-serif;
-    color: darkgrey;
+    color: black;
 }
 
 h1 {
-    font-size: 13px;
+    font-size: 30px;
     color: black;
 }
 
 h2{
-    font-size: 12px;
+    font-size: 20px;
     text-align: center;
     border-bottom: 1px solid #bbb;
 }
@@ -30,9 +30,9 @@ img {
     max-width: 100%;
 }
 
-header, footer,{
+header {
     text-align: center;
-    background-color: rgb(0, 2, 131);
+    background-color: rgb(131, 247, 255);
     color: black;
 }
 
@@ -40,6 +40,7 @@ header img {
     width: 120px;
     height: auto;
     float: right;
+    box-shadow: 5px 5px 5px #999;
 }
 
 /* -----------------------------------------------*/
@@ -61,9 +62,9 @@ header img {
 /* Footer ---------------------->*/
 
 footer {
-    font-size: 1.0px;
+    font-size: 12px;
     text-align: center;
-    background-color: rgb(0, 2, 131);
+    background-color: rgb(131, 247, 255);
     color: black;
     margin: 1.25rem auto;
     padding: .5px;
@@ -72,6 +73,5 @@ footer {
 
 footer a{
     text-align: center;
-    background-color: rgb(0, 2, 131);
-    color: black;
+    color: rgb(23, 0, 235);
 }
