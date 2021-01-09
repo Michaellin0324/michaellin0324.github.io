@@ -1,4 +1,5 @@
 /* WDD 230 - Assignment Portal */
+@import url("https://fonts.googleapis.com/css?family= Arial, Helvetica, sans-serif");
 
 body {
     font-size: 14px;
@@ -20,7 +21,7 @@ h2{
 
 header, main, footer {
     margin: 1.25rem auto;
-    padding: .5rem;
+    padding: .5px;
     max-width: 800px;
 }
 
@@ -37,5 +38,5 @@ header img {
 }
 
 footer {
-    font-size: 1.0rem;
+    font-size: 1.0px;
 }
