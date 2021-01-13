@@ -1,9 +1,10 @@
 /* WDD 230 - Assignment Portal */
-@import url("font-family: 'PT Sans', sans-serif;")
+@import url("https://fonts.googleapis.com/css2?font-family: 'PT Sans', sans-serif;")
+
 body {
     font-size: 14px;
     line-height: 32px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: font-family: 'PT Sans', sans-serif;;
     color: black;
 }
 
