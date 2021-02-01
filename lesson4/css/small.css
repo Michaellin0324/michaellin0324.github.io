@@ -111,12 +111,12 @@ nav ul li a.active {
     padding: 0.75rem;
     text-align: center;
     text-decoration: none;
-    color: cornflowerblue;
+    color: blanchedalmond;
     font-weight: 700;
 }
 
 .nav_bar a:hover {
-    color:cornflowerblue;
+    color:blanchedalmond;
     background-color: cyan;
 }
 
