@@ -1,16 +1,14 @@
-function toggleMenu() {
-    document.getElementsByClassName("nav_bar")[0].classList.toggle("responsive");
-  }
- 
-const day1 = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
-const month1 = ['January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December'];
-var d = new Date();
-var day = d.getDay() 
-var date = d.getDate();
-var month = d.getMonth();
-var Year = d.getFullYear();
+let date = new Date();
 
-var dateStr = day1[day] + ', ' + date + " " + month1[month] + " " + Year;
-document.getElementById("dates").innerHTML = dateStr;
-
-document.getElementById("copyright").innerHTML = Year
+function writedate() {
+    // MM/DD/YYYY HH:MM:SS
+    let hour = date.getHours();
+    var hourText = hour;
+    var timeOfDay = 'AM';
+    if (hour > 12) {
+        hourText = hour - 12;
+        timeOfDay = 'PM';
+    }
+    document.getElementById("copyright").innerHTML = date.getFullYear();
+    document.getElementById("lastUpdate").innerHTML = document.lastModified;
+}
