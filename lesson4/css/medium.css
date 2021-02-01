@@ -1,4 +1,18 @@
-@media only screen (min-width: 32.5em;) {
+@media only screen and (min-width: 32.5em) {
+    main{
+        max-width: 1000px;
+    }
+       .nav_bar li {
+           display: block;
+           flex: 1.1 auto;
+       }
+   
+       .nav_bar a {
+           text-align: center;
+       }
+   
+   }
+    
     h1 {
         font-size: 2.5em;
         margin-top: 0fr;
@@ -30,20 +44,3 @@
      height: 55px;
      max-width: 1000px;
  }
-
- main{
-     max-width: 1000px;
- }
-    .nav_bar li {
-        display: block;
-        flex: 1.1 auto;
-    }
-
-    .nav_bar a {
-        text-align: center;
-    }
-
-    .nav_bar li: first-child {
-        display: none;
-    }
-}
